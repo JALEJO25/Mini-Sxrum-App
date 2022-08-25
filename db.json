@@ -1,0 +1,28 @@
+{
+"tasks": [
+    {
+        "id": 1,
+        "title": "Crear modulo de login de la App",
+        "person": "Joel",
+        "state": "to-do",
+        "deadline": 1591802130,
+        "created": 1591370128
+    },
+    {
+        "id": 2,
+        "title": "Crear modulo de login de la App",
+        "person": "Joel",
+        "state": "in-progress",
+        "deadline": 1591802130,
+        "created": 1591370128
+    },
+    {
+        "id": 3,
+        "title": "Crear modulo de login de la App",
+        "person": "Joel",
+        "state": "done",
+        "deadline": 1591802130,
+        "created": 1591370128
+    }   
+    ]  
+}

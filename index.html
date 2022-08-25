@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Scrum Activity</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <img src="/images/logo.svg" alt="Logo de la App" />
+        <button id="neweTask" class="button">Crear Tarea</button>
+      </div>
+    </header>
+    <main>
+      <div class="main-container">
+        <h1>Simple Scrum</h1>
+        <div class="container">
+          <h2>TO DO</h2>
+          <div class="task-container">
+            <article class="task">
+              <h3>Modulo de Login del la App 1</h3>
+              <p>Responsable: <span>Joel Alejo</span></p>
+              <p>Plazo: <span>05/06/2022</span></p>
+            </article>
+            <article class="task">
+              <h3>Modulo de Login del la App 2</h3>
+              <p>Responsable: <span>Joel Alejo</span></p>
+              <p>Plazo: <span>05/06/2022</span></p>
+            </article>
+            <article class="task">
+              <h3>Modulo de Login del la App 3</h3>
+              <p>Responsable: <span>Joel Alejo</span></p>
+              <p>Plazo: <span>05/06/2022</span></p>
+            </article>
+          </div>
+        </div>
+
+        <div class="container">
+          <h2>IN PROGRESS</h2>
+          <div class="task-container">
+            <article class="task">
+              <h3>Modulo de Login del la App 1</h3>
+              <p>Responsable: <span>Joel Alejo</span></p>
+              <p>Plazo: <span>05/06/2022</span></p>
+            </article>         
+          </div>
+        </div>
+
+        <div class="container">
+          <h2>COMPLETED</h2>
+          <div class="task-container">
+            <article class="task">
+              <h3>Modulo de Login del la App</h3>
+              <p>Responsable: <span>Joel Alejo</span></p>
+              <p>Plazo: <span>05/06/2022</span></p>
+            </article>
+            <article class="task">
+              <h3>Modulo de Login del la App</h3>
+              <p>Responsable: <span>Joel Alejo</span></p>
+              <p>Plazo: <span>05/06/2022</span></p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <aside>
+      <div class="aside-container">
+        <h2>Nueva Tarea</h2>
+        <div class="form-container">
+          <form action="">
+            <div class="input-container">
+              <label for="titleTask">Titulo</label>
+              <input type="text" name="titleTask" id="titleTask" placeholder="Ingrese el titulo de la tarea">
+            </div>
+            <div class="input-container">
+              <label for="personTask">Responsable</label>       
+              <select name="personTask" id="personTask">
+                <option value="">-Seleccionar-</option>
+                <option value="hernan">Hernan Cortes</option>
+                <option value="jose">Jose Aliaga</option>
+                <option value="Adrian">Adrian Toledo</option>
+              </select>
+            </div>
+            <div class="input-container">
+              <label for="deadlineTask">Plazo de entrega</label>       
+              <select name="deadlineTask" id="deadlineTask">
+                <option value="">-Seleccionar-</option>
+                <option value="one">1 dia</option>
+                <option value="two"> 2 dias</option>
+                <option value="seven">1 semana</option>
+              </select>
+            </div>
+            <div class="action-container">
+              <button type="submit">Guardar</button>
+              <button type="reset">Cancelar</button>
+
+            </div>
+            
+          </form>
+        </div>
+      </div>
+    </aside>
+
+  </body>
+</html>
