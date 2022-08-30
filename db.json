@@ -19,6 +19,22 @@
     {
         "id": 3,
         "title": "Crear modulo de login de la App 3",
+        "person": "Jose",
+        "state": "to-do",
+        "deadline": 1591802130,
+        "created": 1591370128
+    },
+    {
+        "id": 4,
+        "title": "Crear modulo de login de la App 4",
+        "person": "Jose",
+        "state": "done",
+        "deadline": 1591802130,
+        "created": 1591370128
+    },
+    {
+        "id": 5,
+        "title": "Crear modulo de login de la App 5",
         "person": "Adriana",
         "state": "done",
         "deadline": 1591802130,
